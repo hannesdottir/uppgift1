@@ -8,7 +8,6 @@ function App() {
       <header>
         <NavMenu />
         <Banner />
-        <p className="text-3xl">Uppgift 1 WIX</p>
       </header>
     </div>
   );

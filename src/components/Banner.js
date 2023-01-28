@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function Banner() {
     return (
-        <div>
-            <h1>Kraften i god rådgivning</h1>
-            <p>Ett stycke här för att lägga till egen text</p>
-            <button className='bg-purple-600 text-white font-medium rounded-full px-10 py-3 hover:bg-violet-900'>Läs mer</button>
+        <div className='p-20 bg-gradient-to-r from-white to-purple-500'>
+            <h1 className='text-8xl font-bold'>Kraften i</h1>
+            <h1 className='text-8xl font-bold'>god rådgivning</h1>
+            <p className='text-2xl font-normal pt-6'>Ett stycke, klicka här för att lägga till egen text</p>
+            <p className='text-2xl font-normal pt-2'>text</p>
+            <button className='bg-purple-600 text-white font-medium rounded-full px-10 py-3 hover:bg-violet-900 mt-8'>Läs mer</button>
         </div>
     )
 }
