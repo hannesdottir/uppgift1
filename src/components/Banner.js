@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Banner() {
     return (
-        <div className='p-20 bg-gradient-to-r from-white to-purple-500'>
+        <div className='p-20'>
             <h1 className='text-8xl font-bold'>Kraften i</h1>
             <h1 className='text-8xl font-bold'>god rådgivning</h1>
             <p className='text-2xl font-normal pt-6'>Ett stycke, klicka här för att lägga till egen text</p>

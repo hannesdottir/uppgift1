@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Navmenu() {
     return (
-        <div className='flex flex-row justify-between mx-10 my-5'>
+        <div className='flex flex-row justify-between mx-10 pt-8'>
             <h1 className="text-3xl font-bold">BizBud</h1>
             <ul className='flex flex-row m-1'>
                 <li className='mx-5 text-purple-600'>Start</li>
