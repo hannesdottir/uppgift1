@@ -3,7 +3,7 @@ import df from '../images/df.png'
 
 export default function Services() {
     return (
-        <div className='flex flex-col text-center my-20'>
+        <div className='flex flex-col text-center my-16'>
             <div className='flex flex-col text-center'>
                 <p className='text-purple-600 font-bold text-xl mb-6'>TJÄNSTER</p>
                 <p className='text-4xl font-bold mb-2'>Tar ditt företag</p>

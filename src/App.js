@@ -2,6 +2,9 @@ import './styles/style.css'
 import NavMenu from './components/NavMenu';
 import Banner from './components/Banner';
 import Services from './components/Services';
+import Numbers from './components/Numbers';
+import About from './components/About';
+import ClientReviews from './components/ClientReviews';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
         <Banner />
       </header>
       <Services />
+      <Numbers />
+      <About />
+      <ClientReviews />
     </div>
   );
 }
