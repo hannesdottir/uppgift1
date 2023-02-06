@@ -19,6 +19,7 @@ function App() {
       <About />
       <ClientReviews />
       <Contact />
+      <Numbers />
     </div>
   );
 }

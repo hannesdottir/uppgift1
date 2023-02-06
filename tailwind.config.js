@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'gras': '#33ff33',
+      },
+      backgroundImage: {
+        'bg-grid': "url('./images/grid.jpg')",
+      }
+    },
   },
   plugins: [],
 }
+
