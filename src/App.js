@@ -6,6 +6,8 @@ import Numbers from './components/Numbers';
 import About from './components/About';
 import ClientReviews from './components/ClientReviews';
 import Contact from './components/Contact';
+import Map from './components/Map';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
       <About />
       <ClientReviews />
       <Contact />
-      <Numbers />
+      <Map />
+      <Footer />
     </div>
   );
 }
