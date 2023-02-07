@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <div className='flex flex-row flex1'>
-            <div className='w-1/2 my-20 mx-20'>
+            <div className='w-1/2 mt-20 mb-28 mx-20'>
                 <p className='text-purple-600 font-bold tracking-widest m-6'>OM</p>
                 <p className='text-4xl font-bold mx-6'>Våra experter</p>
                 <p className='text-4xl font-bold mx-6 mt-2'>är de bästa</p>
