@@ -13,7 +13,7 @@ import CookieBar from './components/CookieBar';
 
 function App() {
   return (
-    <div>
+    <div className='flex flex-col m-h-screen static'>
       <header className='bg-gradient-to-r from-white to-purple-300'>
         <NavMenu />
         <Banner />

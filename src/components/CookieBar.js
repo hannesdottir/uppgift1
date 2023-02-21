@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function CookieBar() {
     return (
-        <div className='shadow-inner'>
+        <div className='shadow-inner absolute bottom-0 left-0 z-50 w-full h-36 bg-white '>
             <div className='flex flex-row-reverse mr-4'>
-                <button className='text-xl mt-4'>X</button>
+                <button className='text-xl mt-2'>X</button>
             </div>
-            <div className='flex flex-row text-sm px-20 pb-8 pt-4'>
-                <p className='w-2/3'>Vi använder cookies för att underlätta våra webbplatsers funktion och
+            <div className='flex flex-row text-sm px-20 pb-4 pt-4'>
+                <p className='w-2/3 mb-4'>Vi använder cookies för att underlätta våra webbplatsers funktion och
                     säkerhet och hjälpa oss ge dig bästa möjliga användarupplevelse. Genom att
                     klicka på Acceptera godkänner du att dessa cookies används för annonsering
                     och statistik. Du kan ändra dina inställningar för cookies när du vill. För
