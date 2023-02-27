@@ -1,10 +1,16 @@
 import React from 'react'
 
-export default function CookieBar() {
+export default function CookieBar({ setHideCookieBar }) {
+
+    function handleClick() {
+        setHideCookieBar(false)
+    };
+
+
     return (
-        <div className='shadow-inner absolute bottom-0 left-0 z-50 w-full h-36 bg-white '>
+        <div className='outer shadow-inner absolute bottom-0 left-0 z-50 w-full h-36 bg-white '>
             <div className='flex flex-row-reverse mr-4'>
-                <button className='text-xl mt-2'>X</button>
+                <button onClick={handleClick} className='text-xl mt-2'>X</button>
             </div>
             <div className='flex flex-row text-sm px-20 pb-4 pt-4'>
                 <p className='w-2/3 mb-4'>Vi använder cookies för att underlätta våra webbplatsers funktion och

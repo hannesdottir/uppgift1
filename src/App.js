@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './styles/style.css'
 import NavMenu from './components/NavMenu';
 import Banner from './components/Banner';
@@ -10,8 +11,13 @@ import Map from './components/Map';
 import Footer from './components/Footer';
 import CompanyMentions from './components/CompanyMentions';
 import CookieBar from './components/CookieBar';
+import Parent from './components/Parent';
+import Child from './components/Child'
 
 function App() {
+
+  const [hideCookieBar, setHideCookieBar] = useState(true);
+
   return (
     <div className='flex flex-col m-h-screen static'>
       <header className='bg-gradient-to-r from-white to-purple-300'>
@@ -26,7 +32,9 @@ function App() {
       <Contact />
       <Map />
       <Footer />
-      <CookieBar />
+      {hideCookieBar == true && <CookieBar setHideCookieBar={setHideCookieBar} />}
+      <Parent />
+      <Child />
     </div>
   );
 }
