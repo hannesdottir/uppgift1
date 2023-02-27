@@ -11,8 +11,6 @@ import Map from './components/Map';
 import Footer from './components/Footer';
 import CompanyMentions from './components/CompanyMentions';
 import CookieBar from './components/CookieBar';
-import Parent from './components/Parent';
-import Child from './components/Child'
 
 function App() {
 
@@ -33,8 +31,6 @@ function App() {
       <Map />
       <Footer />
       {hideCookieBar == true && <CookieBar setHideCookieBar={setHideCookieBar} />}
-      <Parent />
-      <Child />
     </div>
   );
 }
