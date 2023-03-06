@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/uppgift1/static/css/main.73f7485f.css",
+    "main.js": "/uppgift1/static/js/main.b8b7662f.js",
+    "static/js/787.332c28af.chunk.js": "/uppgift1/static/js/787.332c28af.chunk.js",
+    "static/media/companies.png": "/uppgift1/static/media/companies.f70eaf4d9c8be692930d.png",
+    "static/media/df.png": "/uppgift1/static/media/df.1b888026e661a8399228.png",
+    "index.html": "/uppgift1/index.html",
+    "main.73f7485f.css.map": "/uppgift1/static/css/main.73f7485f.css.map",
+    "main.b8b7662f.js.map": "/uppgift1/static/js/main.b8b7662f.js.map",
+    "787.332c28af.chunk.js.map": "/uppgift1/static/js/787.332c28af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73f7485f.css",
+    "static/js/main.b8b7662f.js"
+  ]
+}
